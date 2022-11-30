@@ -1,0 +1,11 @@
+node_modules
+generated
+
+# Keep environment variables out of version control
+.env
+
+# Keep log files out of version control
+yarn-error.log
+
+# Keep prisma migrations out of version control
+prisma/migrations
