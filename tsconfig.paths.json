@@ -1,12 +1,10 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
         "paths": {
             "@routes/*": ["src/routes/*"],
             "@models/*": ["src/models/*"],
             "@constants/*": ["src/constants/*"],
             "@middlewares/*": ["src/middlewares/*"]
-        },
-        "typeRoots": ["types/*"]
+        }
     }
 }
